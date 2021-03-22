@@ -32,7 +32,7 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Point{" + "x=" + x + ", y=" + y + '}';
+        return "Point: " + "(x=" + x + "; y=" + y+")";
     }
 
     public Point midpoint(Point b) {
@@ -42,7 +42,6 @@ public class Point {
         int yF= (int)Math.floor(yM);
         Point result = new Point(xF, yF);
         return result;
-        //implementato round
     }
 
 
