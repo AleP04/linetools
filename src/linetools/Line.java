@@ -40,7 +40,6 @@ public class Line {
     }
 
     public double intercept() {
-        //return this.y - this.x * m;
         return a.getY() - a.getX() * this.slope();
     }
 
